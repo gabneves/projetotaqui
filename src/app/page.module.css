@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Adicionado */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.navLinks {
+  list-style-type: none;
+}
+
+.navLinks li {
+  display: inline;
+  margin-left: 30px;
+
+}
+
+.navLinks li img {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  padding-right: 100px;
+}
+
+.leftContent {
+  width: 50%;
+}
+
+.leftContent img {
+  width: auto;
+  height: 800px;
+}
+
+.rightContent {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.rightContentText{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.rightContent h1 {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #fff;
+}
+
+.rightContent p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.rightContent form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.rightContent form input {
+  width: 90%;
+  height: 36px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  background-color: rgba(217, 217, 217, 0.35);
+  color: #FFFFFF;
+  border: 0.5px solid rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.inputCustom::placeholder{
+  color: #FFFFFF;
+}
+
+.rightContent form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 38px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  outline: none;
+  background-color: #8755B0;
+  color: #FFFFFF;
+  border: 1px solid #6A3198;
+  margin-bottom: 34px;
+}
+
+.rightContent form button img {
+  margin-left: 5px;
+  width: 17px;
+  height: 17px;
+}
+
+.rightContentCode img{
+  width: auto;
+}
+
+.effect img {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
