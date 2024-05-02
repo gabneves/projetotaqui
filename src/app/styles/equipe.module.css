@@ -114,7 +114,7 @@
 .effect img {
     position: relative;
     margin-bottom: 0px;
-    height: 200%;
+    height: auto;
     width: 100%;
 }
 

@@ -9,9 +9,9 @@ const membros = [
         id: 1,
         nome: "Membro 1",
         imagem: "/assets/img/members/Sampaio.svg",
-        github: "#",
+        github: "https://github.com/gabrielsampaiog",
         email: "#",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/gabrielsampaiogianini/"
     },
     {
         id: 2,
@@ -25,25 +25,25 @@ const membros = [
         id: 3,
         nome: "Membro 2",
         imagem: "/assets/img/members/Livia.svg",
-        github: "#",
+        github: "https://github.com/freitaslivia",
         email: "#",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/l%C3%ADvia-freitas-ferreira/"
     },
     {
         id: 4,
         nome: "Membro 2",
         imagem: "/assets/img/members/Rafael.svg",
-        github: "#",
+        github: "https://github.com/rhmendonca",
         email: "#",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/rafael-henrique-de-mendon%C3%A7a-51263326b/"
     },
     {
         id: 5,
         nome: "Membro 2",
         imagem: "/assets/img/members/Romeu.svg",
-        github: "#",
+        github: "https://github.com/RenatoRussano",
         email: "#",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/renato-russano-706423a3/"
     },
 ];
 
