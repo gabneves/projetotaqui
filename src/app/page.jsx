@@ -9,7 +9,7 @@ export default function Home() {
         <nav>
           <ul className={styles.navLinks}>
             <li><a href="#">o projeto<img src="/assets/img/icons/link.svg" alt="Ícone 1" /></a></li>
-            <li><a href="#">nossa equipe<img src="/assets/img/icons/setaDireita.svg" alt="Ícone 2" /></a></li>
+            <li><a href="/equipe">nossa equipe<img src="/assets/img/icons/setaDireita.svg" alt="Ícone 2" /></a></li>
           </ul>
         </nav>
       </header>
