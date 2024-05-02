@@ -21,7 +21,7 @@ export default function Home() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://landingpagetaqui-default-rtdb.firebaseio.com/users.json', { // Substitua 'users' pelo nome da sua coleção
+      const response = await fetch('https://landingpagetaqui-default-rtdb.firebaseio.com/users.json', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
