@@ -1,4 +1,3 @@
-// Equipe.js
 "use client"
 import Image from "next/image";
 import styles from "../styles/equipe.module.css";
@@ -10,7 +9,7 @@ const membros = [
         nome: "Membro 1",
         imagem: "/assets/img/members/Sampaio.svg",
         github: "https://github.com/gabrielsampaiog",
-        email: "#",
+        email: "gsampaio@projetotaqui.com.br",
         linkedin: "https://www.linkedin.com/in/gabrielsampaiogianini/"
     },
     {
@@ -18,7 +17,7 @@ const membros = [
         nome: "Membro 2",
         imagem: "/assets/img/members/Neves.svg",
         github: "https://github.com/Neveszera",
-        email: "https://gabrielgng.2@gmail.com",
+        email: "gneves@projetotaqui.com.br",
         linkedin: "https://www.linkedin.com/in/-gabriel-neves"
     },
     {
@@ -26,7 +25,7 @@ const membros = [
         nome: "Membro 2",
         imagem: "/assets/img/members/Livia.svg",
         github: "https://github.com/freitaslivia",
-        email: "#",
+        email: "livia@projetotaqui.com.br",
         linkedin: "https://www.linkedin.com/in/l%C3%ADvia-freitas-ferreira/"
     },
     {
@@ -34,7 +33,7 @@ const membros = [
         nome: "Membro 2",
         imagem: "/assets/img/members/Rafael.svg",
         github: "https://github.com/rhmendonca",
-        email: "#",
+        email: "rafael@projetotaqui.com.br",
         linkedin: "https://www.linkedin.com/in/rafael-henrique-de-mendon%C3%A7a-51263326b/"
     },
     {
@@ -42,7 +41,7 @@ const membros = [
         nome: "Membro 2",
         imagem: "/assets/img/members/Romeu.svg",
         github: "https://github.com/RenatoRussano",
-        email: "#",
+        email: "renato@projetotaqui.com.br",
         linkedin: "https://www.linkedin.com/in/renato-russano-706423a3/"
     },
 ];
@@ -67,7 +66,7 @@ export default function Equipe() {
                     <div className={styles.member} key={membro.id}>
                         <Image src={membro.imagem} alt={membro.nome} width={209} height={308} />
                         <div className={styles.iconBackground}>
-                            <a href={membro.email} target="_blank"><img className={styles.icon} src="/assets/img/icons/envelopeRoxo.svg" alt="Ícone E-mail" style={{ width: "40px", height: "40px" }} /></a>
+                            <a href={`mailto:${membro.email}`} target="_blank"><img className={styles.icon} src="/assets/img/icons/envelopeRoxo.svg" alt="Ícone E-mail" style={{ width: "40px", height: "40px" }} /></a>
                             <a href={membro.github} target="_blank"><img className={styles.icon} src="/assets/img/icons/githubRoxo.svg" alt="Ícone GitHub" style={{ width: "39px", height: "40px" }} /></a>
                             <a href={membro.linkedin} target="_blank"><img className={styles.icon} src="/assets/img/icons/linkedinRoxo.svg" alt="Ícone LinkedIn" style={{ width: "39px", height: "39px" }} /></a>
                         </div>
